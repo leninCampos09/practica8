@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> <!-- evento de click --ejercicio1 -->
+            <!-- evento de click --ejercicio2 -->
+            <!-- evento mouseover - ejercicio1 -->
+            <!-- evento mouseover - ejercicio2 -->
+        </title>
+    </head>
+    <body>
+        <!-- <button id="miBoton1"> --><!-- haz click para cambiar el texto(ejercicio1) -->
+<!--             <button id="miBoton2">haz click para contar(ejercicio2)</button> -->
+        <!-- <p id="texto1"> --><!-- texto original -->
+            <!-- <p id="contadorClics">clics: 0</p> -->
+            <!-- <div id="miDiv1"> pasa el raton sobre mi(ejercicio1)</div> -->
+            <!-- <div id="miDiv2"> pasa el raton sobre mi(ejercicio1)</div>
+            <p id="contadorMouseover">contador: 0</p>  -->
+        <script>
+            /* const miBoton1  = document.getElementById("miBoton1");
+            const texto1 = document.getElementById("texto1");
+
+            miBoton1.addEventListener("click", function(){
+                texto1.textContent = "texto cambiado por clic (ejercicio1)";
+            }); */
+
+
+            /* const miBoton2  = document.getElementById("miBoton2");
+            const contadorClics = document.getElementById("contadorClics");
+
+            let clics = 0;
+            miboton2.addEventlistener("click", function(){
+                clics++;
+                contadorClics.textContent = `clics: ${clics}`;
+            });
+ */
+/* const miDiv1 = document.getElementById("miDiv1");
+
+ const miDiv1.addEventListener("mouseover", function(){
+    miDiv1.style.backgroundColor = "lightblue";
+ }); */
+
+ /* const miDiv2 = document.getElementById("miDiv2");
+ const contadorMouseover = document.getElementById("contadorMouseover");
+
+ let conteoMouseover = 0;
+ miDiv2.addEventListener("mouseover", function(){
+    conteoMouseover++;
+    contadorMouseover,textContent = `contador: ${conteoMouseover}`;
+ }); */
+        </script>
+    </body>
+</html>
